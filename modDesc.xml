@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="39">
+	<author>Ls-Modcompany - kevink98/Eribus</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>MpManagementModul - MapBuyableObjects</en>
+    </title>
+    <description>
+       <de><![CDATA[Erweiterung zum MpManagement
+
+Mit dieser Erweiterung werden Kaufbare Objekte (MapBuyableObjects) unterstützt. Hofleiter können einteilen welcher Hof welches Gebäude gehört. 
+Anhand dieser Einstellung werden die Unterhaltskosten beim richtigen Hof abgezogen. 
+
+Dieses Script ist unbedingt notwending wenn es auf der Map Kaufbare Objekte (MapBuyableObjects) gibt!]]></de>
+		<en><![CDATA[MpManagement-Extension
+
+This extension supports Buyable objects (MapBuyableObjects). Farmleaders can arrange which courtyard belongs to which building.
+Based on this setting, the maintenance costs will be deducted at the correct yard.
+
+This script is absolutely necessary if there are buyable objects (MapBuyableObjects) on the map!]]></en>
+    </description>
+    <iconFilename>mpManagerModul.dds</iconFilename>
+    <multiplayer supported="true"/>
+	<extraSourceFiles>	
+		<sourceFile filename="mpManagerModul.lua" /> 
+	</extraSourceFiles>
+</modDesc>
